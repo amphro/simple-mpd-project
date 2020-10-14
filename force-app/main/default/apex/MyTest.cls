@@ -1,5 +1,5 @@
-/**d
- * sThis class contains unit tests for validating the behavior of Apex classes
+/**
+ * This class contains unit tests for validating the behavior of Apex classes
  * and triggers.
  *
  * Unit tests are class methods that verify whether a particular piece

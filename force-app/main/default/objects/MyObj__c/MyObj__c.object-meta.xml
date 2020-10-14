@@ -53,7 +53,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>MyObj</label>
+    <label>MyObjT</label>
     <nameField>
         <label>MyObj Name</label>
         <type>Text</type>
