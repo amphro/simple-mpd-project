@@ -13,3 +13,29 @@ package.xml
 
 **profile**
 **layout**
+
+# List files or directories below to ignore them when deploying to a persistent environment or validation
+package.xml
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+# LWC Jest
+**/__tests__/**
+**sharingRules
+/force-app/main/default/profiles/InitialPatientInfo Profile.profile-meta.xml
+/force-app/main/default/profiles/ReadOnly.profile-meta.xml
+/force-app/main/default/dataSources/*
+/force-app/main/default/namedCredentials/*
+/force-app/main/default/customMetadata/CalloutSettings.AWSAccessToken.md-meta.xml
+/force-app/main/default/customMetadata/CalloutSettings.AWSEnrollment.md-meta.xml
+/force-app/main/default/customMetadata/CalloutSettings.AWSUnenrollment.md-meta.xml
+/force-app/main/default/remoteSiteSettings/AWS_Enrollment.remoteSite-meta.xml
+/force-app/main/default/remoteSiteSettings/AWS_Oauth_Token.remoteSite-meta.xml
+/force-app/main/default/objects/ProviderAlerts__x
+/force-app/main/default/objects/RPMObservationViews__x
+/force-app/main/default/objects/ProviderAlerts__x
+/force-app/main/default/objects/AssessmentResponses__x
+force-app/main/default/objects/AssessmentSubmissionViews__x/**/*
+/force-app/main/default/permissionsets/Scratch_Org_User.permissionset-meta.xml
+#layouts
+/force-app/main/default/layouts/Pricebook2-Price Book Layout.layout
